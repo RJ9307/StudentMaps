@@ -1,0 +1,29 @@
+<% include head %>
+<nav>
+</nav>
+<div id="map"></div>
+<% for(var i=0; i < fuifruimte.features.length; i++) { %>
+    <div class="<%- fuifruimte.features[i].attributes.postcode %>">
+        <header>
+            <h1>fuifruimte:</h1>
+            <h2><%-fuifruimte.features[i].attributes.naam %></h2>
+        </header>
+        <section>
+            <p>coord: <%-fuifruimte.features[i].geometry.y %> <%-fuifruimte.features[i].geometry.x %></p>
+        </section>
+        <footer>
+            <small><%- fuifruimte.features[i].attributes.straat %> <%- fuifruimte.features[i].attributes.huisnummer %></small>
+        </footer>
+    </div>
+<% } %>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+crossorigin=""></script>
+<script src="js/map.js"></script>
+<script>
+    <% for(var i=0; i < fuifruimte.features.length; i++) { %>
+    L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>]).addTo(map)
+        .bindPopup("<%- fuifruimte.features[i].attributes.naam%>")
+    <% } %>
+</script>
+<% include footer %>
