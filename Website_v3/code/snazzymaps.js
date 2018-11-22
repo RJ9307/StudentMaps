@@ -104,12 +104,14 @@ function initMap() {
         }
       ]
   });
-/*var locations = ['Sporthal Luisbekelaar','4.445567895116423','51.20576840789704'],
-                ['Jongerencentrum Bouckenborgh','4.453459279102434','51.245330025220234'],
-                ['Zappa','4.379329700163845','51.195646252444902'],
-                ['Kavka','4.403152408820539','51.215652655839456'],
-                ['Bourla','4.407360372592738','51.21598097534531'];
-gebruik google sheets
+
+  var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: 'Hello World!'
+    });
+
+/*
 for (i = 0; i < locations.length; i++) {
      marker = new google.maps.Marker({
        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
