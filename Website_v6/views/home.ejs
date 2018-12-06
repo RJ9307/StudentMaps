@@ -2,6 +2,15 @@
 <!--    Made by Erik Terwan    -->
 <!--   24th of November 2015   -->
 <!--        MIT License        -->
+<nav class="header">
+  <h1 class="logo"><a href="#"></a></h1>
+    <ul class="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 <nav role='navigation'>
   <div id="menuToggle">
     <!--
@@ -25,7 +34,6 @@
     but hey, it's pure CSS magic.
     -->
     <ul id="menu">
-<img class="logo" src="/img/logo.svg"/>
 
       <form action="#">
         <p>
@@ -45,7 +53,7 @@
     </ul>
   </div>
 </nav>
-<div id="map"></div>
+<div id="map">
 <% for(var i=0; i < fuifruimte.features.length; i++) { %>
     <div class="<%- fuifruimte.features[i].attributes.postcode %>">
         <header>
