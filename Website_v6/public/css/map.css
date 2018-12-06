@@ -9,7 +9,7 @@ body {
   /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   /* needed because hiding the menu on the right side is not perfect,  */
 }
@@ -24,8 +24,95 @@ a:hover {
   color: tomato;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2, h3, a {
+  color: #34495e;
+}
+
+a {
+  text-decoration: none;
+}
+
 .logo {
-  width: 80%;
+  margin: 15px 0 0 30px;
+  font-size: 1.45em;
+  background-image: url("/img/logo.svg");
+  background-repeat: no-repeat;
+  min-width: 100px;
+  max-width: 50%;
+}
+
+.logoinmenu {
+  margin: 0 0 0 0;
+  min-width: 100px;
+  max-width: 50%;
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+
+.logo a, .main-nav a {
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: .99em;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+.header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: #fff;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+  .header, .main-nav {
+    display: flex;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+
+    .header {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 #menuToggle {
@@ -66,9 +153,11 @@ a:hover {
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-    opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+}
+
+#map {
+  pointer-events: none;
 }
 
 #menuToggle span:first-child {
@@ -111,10 +200,10 @@ a:hover {
  */
 #menu {
   position: absolute;
-  width: 25vw;
+  width: 200px;
   height: 100vh;
   margin: -100px 0 0 0;
-  padding: 50px;
+  padding: 20px;
   padding-top: 125px;
   right: -100px;
   background: #ededed;
@@ -141,22 +230,19 @@ a:hover {
 
 /*CHEKCBOXES*/
 /* Base for label styling */
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
   position: absolute;
   left: -9999px;
 }
 
-[type="checkbox"]:not(:checked)+label,
-[type="checkbox"]:checked+label {
+[type="checkbox"]:not(:checked)+label, [type="checkbox"]:checked+label {
   position: relative;
   padding-left: 1.95em;
   cursor: pointer;
 }
 
 /* checkbox aspect */
-[type="checkbox"]:not(:checked)+label:before,
-[type="checkbox"]:checked+label:before {
+[type="checkbox"]:not(:checked)+label:before, [type="checkbox"]:checked+label:before {
   content: '';
   position: absolute;
   left: 0;
@@ -170,8 +256,7 @@ a:hover {
 }
 
 /* checked mark aspect */
-[type="checkbox"]:not(:checked)+label:after,
-[type="checkbox"]:checked+label:after {
+[type="checkbox"]:not(:checked)+label:after, [type="checkbox"]:checked+label:after {
   content: '\2713\0020';
   position: absolute;
   top: .15em;
@@ -180,7 +265,7 @@ a:hover {
   line-height: 0.8;
   color: #09ad7e;
   transition: all .2s;
-  font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
 }
 
 /* checked mark aspect changes */
@@ -195,8 +280,7 @@ a:hover {
 }
 
 /* disabled checkbox */
-[type="checkbox"]:disabled:not(:checked)+label:before,
-[type="checkbox"]:disabled:checked+label:before {
+[type="checkbox"]:disabled:not(:checked)+label:before, [type="checkbox"]:disabled:checked+label:before {
   box-shadow: none;
   border-color: #bbb;
   background-color: #ddd;
@@ -211,8 +295,7 @@ a:hover {
 }
 
 /* accessibility */
-[type="checkbox"]:checked:focus+label:before,
-[type="checkbox"]:not(:checked):focus+label:before {
+[type="checkbox"]:checked:focus+label:before, [type="checkbox"]:not(:checked):focus+label:before {
   border: 2px dotted blue;
 }
 
@@ -245,4 +328,85 @@ form {
 .copy a {
   text-decoration: none;
   color: #4778d9;
+}
+
+/*MEDIA QUERIES*/
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  #menu {
+    display: none;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #menu {
+    display: none;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  #menu {
+    display: none;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #menu {
+    display: none;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    display: none;
+  }
 }
