@@ -5,36 +5,32 @@
 <nav class="header">
   <h1 class="logo"><a href="#"></a></h1>
     <ul class="main-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+      <form action="#">
+        <p>
+          <input type="checkbox" id="test1" />
+          <label for="test1">Café</label>
+        </p>
+        <p>
+          <input type="checkbox" id="test2" checked="checked" />
+          <label for="test2">Disco</label>
+        </p>
+        <p>
+          <input type="checkbox" id="test2" checked="checked" />
+          <label for="test2">Dancing</label>
+        </p>
+      </form>
     </ul>
 </nav>
 <nav role='navigation'>
   <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
     <input type="checkbox" />
-
-    <!--
-    Some spans to act as a hamburger.
-
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
     <span></span>
     <span></span>
     <span></span>
 
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
     <ul id="menu">
 
+        <img class="logoinmenu" src="/img/logo.svg" />
       <form action="#">
         <p>
           <input type="checkbox" id="test1" />
