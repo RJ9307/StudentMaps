@@ -156,10 +156,6 @@ a {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
 }
 
-#map {
-  pointer-events: none;
-}
-
 #menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
