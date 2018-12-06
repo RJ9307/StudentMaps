@@ -22,3 +22,18 @@ function onLocationError(e) {
 }
 
 map.on('locationerror', onLocationError);
+
+var distance = 400;
+function showWithinOwnArea(e){
+    distance = e.accuracy / 2;
+
+    L.circle(e.latlng, distance).addTo(map);
+}
+
+map.on('showOwnArea', showWithinOwnArea);
+
+function showWithinOwnAreaError(e) {
+    alert(e.message);
+}
+
+map.on('showOwnAreaError', showWithinOwnAreaError);
