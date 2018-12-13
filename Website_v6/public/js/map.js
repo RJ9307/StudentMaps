@@ -1,7 +1,5 @@
-var map = L.map('map').fitWorld();
-
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 map.locate({
@@ -14,8 +12,6 @@ function onLocationFound(e) {
 
   L.marker(e.latlng).addTo(map)
     .bindPopup("Je bent " + radius + " meter ver van de AP Hogeschool.").openPopup();
-
-  L.circle(e.latlng, radius).addTo(map);
 }
 
 map.on('locationfound', onLocationFound);
@@ -29,15 +25,15 @@ map.on('locationerror', onLocationError);
 var distance = 400;
 
 function showWithinOwnArea(e) {
-  distance = e.accuracy / 2;
+  distance += e.accuracy / 2;
 
   L.circle(e.latlng, distance).addTo(map);
 }
 
-map.on('showOwnArea', showWithinOwnArea);
+map.on('locationfound', showWithinOwnArea);
 
 function showWithinOwnAreaError(e) {
   alert(e.message);
 }
 
-map.on('showOwnAreaError', showWithinOwnAreaError);
+map.on('locationerror', showWithinOwnAreaError);
