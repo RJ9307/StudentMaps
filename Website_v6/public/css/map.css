@@ -1,5 +1,5 @@
 html, body, #map {
-  height: 90%;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -207,11 +207,11 @@ a {
  */
 #menu {
   position: absolute;
-  width: 200px;
-  height: 100vh;
+  width: 120vw;
+  height: 120vh;
   margin: -100px 0 0 0;
-  padding: 20px;
-  padding-top: 125px;
+  padding-left: 30vw;
+  padding-top: 65px;
   right: -100px;
   background: #fff;
   list-style-type: none;
