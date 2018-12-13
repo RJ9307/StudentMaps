@@ -14,6 +14,11 @@ body {
   /* needed because hiding the menu on the right side is not perfect,  */
 }
 
+.main-nav p {
+  display: inline;
+  margin: 30px;
+}
+
 a {
   text-decoration: none;
   color: #232323;
@@ -50,7 +55,7 @@ a {
 }
 
 .logo {
-  margin: 15px 0 0 30px;
+  margin: 5px 0 0 30px;
   font-size: 1.45em;
   background-image: url("/img/logo.svg");
   background-repeat: no-repeat;
@@ -113,6 +118,12 @@ a {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+/*LEAFLET*/
+.leaflet-popup-content {
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 #menuToggle {
@@ -202,7 +213,7 @@ a {
   padding: 20px;
   padding-top: 125px;
   right: -100px;
-  background: #ededed;
+  background: #fff;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -290,14 +301,9 @@ a {
   color: #aaa;
 }
 
-/* accessibility */
-[type="checkbox"]:checked:focus+label:before, [type="checkbox"]:not(:checked):focus+label:before {
-  border: 2px dotted blue;
-}
-
 /* hover style just for information */
 label:hover:before {
-  border: 2px solid #4778d9 !important;
+  border: 2px solid #09ad7e !important;
 }
 
 /* Useless styles, just for demo design */
