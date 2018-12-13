@@ -1,5 +1,3 @@
-var map = L.map('map').fitWorld();
-
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
@@ -12,7 +10,7 @@ function onLocationFound(e) {
     L.marker(e.latlng).addTo(map)
         .bindPopup("You are within " + radius + " meters from this point").openPopup();
 
-    L.circle(e.latlng, radius).addTo(map);
+    //L.circle(e.latlng, radius).addTo(map);
 }
 
 map.on('locationfound', onLocationFound);
@@ -25,15 +23,15 @@ map.on('locationerror', onLocationError);
 
 var distance = 400;
 function showWithinOwnArea(e){
-    distance = e.accuracy / 2;
+    distance += e.accuracy / 2;
 
     L.circle(e.latlng, distance).addTo(map);
 }
 
-map.on('showOwnArea', showWithinOwnArea);
+map.on('locationfound', showWithinOwnArea);
 
 function showWithinOwnAreaError(e) {
     alert(e.message);
 }
 
-map.on('showOwnAreaError', showWithinOwnAreaError);
+map.on('locationerror', showWithinOwnAreaError);

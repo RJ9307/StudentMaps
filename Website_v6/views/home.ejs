@@ -15,8 +15,8 @@
           <label for="test2">Disco</label>
         </p>
         <p>
-          <input type="checkbox" id="test2" checked="checked" />
-          <label for="test2">Dancing</label>
+          <input type="checkbox" id="test3" checked="checked" />
+          <label for="test3">Dancing</label>
         </p>
       </form>
     </ul>
@@ -41,8 +41,8 @@
           <label for="test2">Disco</label>
         </p>
         <p>
-          <input type="checkbox" id="test2" checked="checked" />
-          <label for="test2">Dancing</label>
+          <input type="checkbox" id="test3" checked="checked" />
+          <label for="test3">Dancing</label>
         </p>
       </form>
 
@@ -53,18 +53,25 @@
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
 integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
 crossorigin=""></script>
-<script src="js/map.js"></script>
 <script>
+  var cafés = new L.LayerGroup();
+
     <% for(var i=0; i < fuifruimte.features.length; i++) { %>
-    L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>]).addTo(map)
-        .bindPopup("<%-fuifruimte.features[i].attributes.ROEPNAAM_ZZ_OBJECT %>")
+    L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>])
+        .bindPopup("<%-fuifruimte.features[i].attributes.ROEPNAAM_ZZ_OBJECT %>").addTo(cafés)
     <% } %>
 
-    var cafés = L.LayerGroup([<%- fuifruimte.features[i] %>]);
-    var overlayMaps = {
+    var map = L.map('map').fitWorld();
+
+    var overlays = {
         "Cafés": cafés
     };
 
-    L.control.layers(overlayMaps).addTo(map);
+    L.control.layers(null, overlays).addTo(map);
+
+    if (true) {
+
+    }
 </script>
+<script src="js/map.js"></script>
 <% include footer %>
