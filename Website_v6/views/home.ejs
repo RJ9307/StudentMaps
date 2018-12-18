@@ -4,12 +4,12 @@
     <ul class="main-nav">
       <form action="#">
         <p>
-          <input type="checkbox" id="cafebox" onclick="showCafe()" />
+          <input type="checkbox" id="cafebox1" onclick="showCafe()" />
           <label for="cafebox">Café</label>
         </p>
         <p>
-          <input type="checkbox" id="box2" checked="checked" />
-          <label for="box2">Disco</label>
+          <input type="checkbox" id="cultuurbox1" onclick="showCultuur()" />
+          <label for="cultuurbox">Cultuur</label>
         </p>
         <p>
           <input type="checkbox" id="box3" checked="checked" />
@@ -51,21 +51,35 @@
 integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
 crossorigin=""></script>
 <script>
+  var map = L.map('map').fitWorld();
   var cafés = new L.LayerGroup();
+  var cultuur = new L.LayerGroup();
 
     <% for(var i=0; i < fuifruimte.features.length; i++) { %>
     L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>])
         .bindPopup("<%-fuifruimte.features[i].attributes.ROEPNAAM_ZZ_OBJECT %>").addTo(cafés)
     <% } %>
 
-    var map = L.map('map').fitWorld();
+    <% for(var i=0; i < cultuurruimte.features.length; i++) { %>
+    L.marker([<%-cultuurruimte.features[i].geometry.y %>, <%-cultuurruimte.features[i].geometry.x %>])
+        .bindPopup("<%-cultuurruimte.features[i].attributes.naam %>").addTo(cultuur)
+    <% } %>
 
     function showCafe(){
-      var checkbox = document.getElementById("cafebox").checked
+      var checkbox = document.getElementById("cafebox1").checked
       if (checkbox) {
         map.addLayer(cafés);
       }else {
         map.removeLayer(cafés);
+      }
+    }
+
+    function showCultuur(){
+      var checkbox = document.getElementById("cultuurbox1").checked
+      if (checkbox) {
+        map.addLayer(cultuur);
+      }else {
+        map.removeLayer(cultuur);
       }
     }
 </script>
