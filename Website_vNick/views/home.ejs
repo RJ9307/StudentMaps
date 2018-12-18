@@ -1,0 +1,115 @@
+<% include head %>
+<nav class="header">
+  <h1 class="logo"><a href="#"></a></h1>
+    <ul class="main-nav">
+      <form action="#">
+        <p>
+          <input type="checkbox" id="cafebox" onclick="showCafe()" />
+          <label for="cafebox">Café</label>
+        </p>
+        <p>
+          <input type="checkbox" id="cultuurbox" onclick="showCultuur()" />
+          <label for="cultuurbox">Cultuur</label>
+        </p>
+        <p>
+          <input type="checkbox" id="sportbox" onclick="showSport()" />
+          <label for="sportbox">Sport</label>
+        </p>
+      </form>
+    </ul>
+</nav>
+<nav role='navigation'>
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+
+        <img class="logoinmenu" src="/img/logo.svg" />
+      <form action="#">
+        <p>
+          <input type="checkbox" id="box4" />
+          <label for="box4">Café</label>
+        </p>
+        <p>
+          <input type="checkbox" id="box5" />
+          <label for="box5">Cultuur</label>
+        </p>
+        <p>
+          <input type="checkbox" id="box6" />
+          <label for="box6">Sport</label>
+        </p>
+      </form>
+
+    </ul>
+  </div>
+</nav>
+<div id="map">
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+crossorigin=""></script>
+<script>
+    var mapPin = L.Icon.extend({
+    options: {
+        iconSize:     [50, 50],
+        iconAnchor:   [25, 50],
+        popupAnchor:  [0, -56]
+    }
+});
+
+var pinBlue = new mapPin({iconUrl: '/img/PinBlue.png'}),
+ pinYellow = new mapPin({iconUrl: '/img/PinYellow.png'}),
+ pinRed = new mapPin({iconUrl: '/img/PinRed.png'}),
+ pinGreen = new mapPin({iconUrl: '/img/PinGreen.png'});
+    
+  var map = L.map('map').fitWorld();
+  var cafés = new L.LayerGroup();
+  var cultuur = new L.LayerGroup();
+  var sport = new L.LayerGroup();
+
+    <% for(var i=0; i < fuifruimte.features.length; i++) { %>
+    L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>], {icon: pinRed})
+        .bindPopup("<%-fuifruimte.features[i].attributes.ROEPNAAM_ZZ_OBJECT %>").addTo(cafés)
+    <% } %>
+
+    <% for(var i=0; i < cultuurruimte.features.length; i++) { %>
+    L.marker([<%-cultuurruimte.features[i].geometry.y %>, <%-cultuurruimte.features[i].geometry.x %>], {icon: pinYellow})
+        .bindPopup("<%-cultuurruimte.features[i].attributes.naam %>").addTo(cultuur)
+    <% } %>
+                   
+    <% for(var i=0; i < sportruimte.features.length; i++) { %>
+    L.marker([<%-sportruimte.features[i].geometry.y %>, <%-sportruimte.features[i].geometry.x %>], {icon: pinGreen})
+        .bindPopup("<%-sportruimte.features[i].attributes.naam %>").addTo(sport)
+    <% } %>
+
+    function showCafe(){
+      var checkbox = document.getElementById("cafebox").checked
+      if (checkbox) {
+        map.addLayer(cafés);
+      }else {
+        map.removeLayer(cafés);
+      }
+    }
+        
+        function showCultuur(){
+      var checkbox = document.getElementById("cultuurbox").checked
+      if (checkbox) {
+        map.addLayer(cultuur);
+      }else {
+        map.removeLayer(cultuur);
+      }
+    }
+    
+    function showSport(){
+      var checkbox = document.getElementById("sportbox").checked
+      if (checkbox) {
+        map.addLayer(sport);
+      }else {
+        map.removeLayer(sport);
+      }
+    }
+</script>
+<script src="js/map.js"></script>
+<% include footer %>
