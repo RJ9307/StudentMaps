@@ -56,6 +56,20 @@ crossorigin=""></script>
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/dark-v9', //hosted style id
   });*/
+
+  var mapPin = L.Icon.extend({
+  options: {
+      iconSize:     [50, 50],
+      iconAnchor:   [25, 50],
+      popupAnchor:  [0, -56]
+    }
+  });
+
+  var pinBlue = new mapPin({iconUrl: '/img/PinBlue.png'}),
+  pinYellow = new mapPin({iconUrl: '/img/PinYellow.png'}),
+  pinRed = new mapPin({iconUrl: '/img/PinRed.png'}),
+  pinGreen = new mapPin({iconUrl: '/img/PinGreen.png'});
+
   var map = L.map('map').fitWorld();
   var cafés = new L.LayerGroup();
   var cultuur = new L.LayerGroup();
@@ -87,6 +101,7 @@ crossorigin=""></script>
         map.removeLayer(cafés);
       }
     }
+
     //error als je van web naar mobile gaat en 1 item is checked dan kan je die niet meer uitzetten
     //https://stackoverflow.com/questions/31723201/populating-markers-inside-rectangle-circle-and-polygon voor de cirkel app
 

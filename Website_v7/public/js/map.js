@@ -10,7 +10,7 @@ map.locate({
 function onLocationFound(e) {
   var radius = e.accuracy / 2;
 
-  L.marker(e.latlng).addTo(map)
+  L.marker(e.latlng, {icon: pinBlue}).addTo(map)
     .bindPopup("Je bent hier").openPopup();
 }
 
