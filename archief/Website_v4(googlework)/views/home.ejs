@@ -1,0 +1,14 @@
+<% include head %>
+<nav>
+</nav>
+<%# hier moet ik naar mijn javascript linken naar de for loop %>
+
+<%# for ( var i = 0; i <  fuifruimte.features.length; i++) { %>
+         position: {lat: <%# fuifruimte.features[i].geometry.y %> , lng: <%# fuifruimte.features[i].geometry.x %> }
+<%#  } %>
+
+<script type="text/javascript" src="js/snazzymaps.js" id="snazzy" data-fuifruimte='<%-fuifruimte %>'> </script>
+
+
+<div id="map"></div>
+<% include footer %>

@@ -1,0 +1,177 @@
+﻿X,Y,OBJECTID,CODE_OBJECT,ROEPNAAM_ZZ_OBJECT,NAAM_ZAAL,HOOFDFUNCTIE_ACTIVITEITSTYPE,MAX_ZITTEND,MAX_STAAND,ORIG_FID
+4.445567895116423,51.20576840789704,22705,0000000018,Sporthal Luisbekelaar,Cafetaria,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",75,80,1
+4.453459279102434,51.245330025220234,22706,0000000062,Jongerencentrum Bouckenborgh,Café,"Feest, Hobby",40,120,2
+4.453459279102434,51.245330025220234,22707,0000000062,Jongerencentrum Bouckenborgh,Bovenzaal,"Feest, Hobby, Repetitie, Vakantieactiviteit, Vergader, Vergader1",30,50,3
+4.379329700163845,51.195646252444902,22708,0000000216,Zappa,Grote zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",650,1000,4
+4.403152408820539,51.215652655839456,22709,0000000338,Kavka,Concertzaal,"Feest, Hobby, Repetitie, Sport, Vakantieactiviteit, Vergader, Vergader1",,355,5
+4.403152408820539,51.215652655839456,22710,0000000338,Kavka,Kaffee,"Feest, Vakantieactiviteit, Vergader",50,75,6
+4.34631083705075,51.218674477149662,22711,0000000485,FC Turk Sport,Cafetaria,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",100,250,7
+4.407360372592738,51.21598097534531,22712,0000000512,Bourla,Foyer,"Feest, Hobby, Repetitie, Vergader, Vergader1",180,300,8
+4.489489900037114,51.218723551468663,22713,0000000659,Spartacus,Feestzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",60,120,9
+4.488499098138003,51.216523625222393,22714,0000000661,Master Schmidt Hoeve,Fuifzaal,"Feest, Repetitie",100,240,10
+4.346119144407371,51.164492328830399,22715,0000000669,Schietgang,Polyvalente zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",,200,11
+4.423223386891932,51.231026288640741,22716,0000001177,Platform Spoor Noord,Zomerbar,"Feest, Hobby, Repetitie, Sport, Vergader",300,500,12
+4.443908275132983,51.195027973440872,22717,0000001210,Den Eglantier,Zaal gelijkvloers,"Feest, Hobby, Repetitie, Vergader, Vergader1",100,170,13
+4.461336168779148,51.197839922163809,22718,0000001434,De Chalet,Polyvalente zaal,"Feest, Sport, Vergader, Vergader1",50,120,14
+4.448181312430902,51.219656175164978,22719,0000001511,Trix,Zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",400,1100,15
+4.448181312430902,51.219656175164978,22720,0000001511,Trix,Bar,"Feest, Repetitie, Vergader",50,180,16
+4.448181312430902,51.219656175164978,22721,0000001511,Trix,Club,"Feest, Repetitie, Vergader",150,432,17
+4.408503961221546,51.235933435431214,22722,0000003549,CadX,Polyvalente Ruimte,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",,500,18
+4.408503961221546,51.235933435431214,22723,0000003549,CadX,Beach Volley Indoor,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",,500,19
+4.408503961221546,51.235933435431214,22724,0000003549,CadX,Skybar,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",,70,20
+4.408503961221546,51.235933435431214,22725,0000003549,CadX,Beach Volley Outdoor,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",,500,21
+4.408503961221546,51.235933435431214,22726,0000003549,CadX,Modulair,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",,500,22
+4.407817656347593,51.227630202595101,22727,0000003945,Sint-Felixpakhuis,Binnenstraat,"Feest, Hobby, Repetitie, Sport, Vergader",,400,23
+4.350899649961969,51.164677126342013,22728,0000004359,Outfort,Outfort - Caponnière,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",140,249,24
+4.4217552702976,51.211525817991031,22729,0000007612,Ampere,Stedelijke fuifzaal,"Feest, Hobby, Logistiek, Religiebeleving, Sport, Vergader, Vergader1",,960,25
+4.433009556693537,51.212843929966873,22730,0000007811,Madam Fortuna,Zaal gelijkvloers,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",,120,26
+4.430830476311999,51.206778131940197,22731,0000007839,Zurenborger,Zaal 1 gelijkvloers,"Feest, Hobby, Vergader, Vergader1",100,200,27
+4.44417701021412,51.202545989077144,22732,0000007841,Paroza,Feestzaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",100,220,28
+4.442726606990109,51.195366432184905,22733,0000007846,Groenenhoek,Vervaetzaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",64,104,29
+4.430538847648008,51.200086409343186,22734,0000007858,Lebowski's,Combinatie café + zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",60,97,30
+4.430538847648008,51.200086409343186,22735,0000007858,Lebowski's,Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",40,60,31
+4.348474735049361,51.164026551075402,22736,0000007877,Outfort,Outfort - Hoofdfrontgebouw,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",200,249,32
+4.348474735049361,51.164026551075402,22737,0000007877,Outfort,Outfort - Caponnière,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",140,249,33
+4.401217810610517,51.229158574253475,22738,0000007941,Barcelona Meeting,Zaal,"Feest, Repetitie, Vergader, Vergader1",80,180,34
+4.402065962874491,51.233694239450266,22739,0000007958,Waagnatie,Evenementenhal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",2000,3800,35
+4.401643006449365,51.230065207741106,22740,0000007963,Stuurboord,Volledig,"Feest, Hobby, Repetitie, Vergader, Vergader1",850,1500,36
+4.401643006449365,51.230065207741106,22741,0000007963,Stuurboord,Zaal Antwerpen,"Feest, Hobby, Repetitie, Vergader, Vergader1",50,200,37
+4.401643006449365,51.230065207741106,22742,0000007963,Stuurboord,Zaal Signapore,"Feest, Hobby, Repetitie, Vergader, Vergader1",180,300,38
+4.401643006449365,51.230065207741106,22743,0000007963,Stuurboord,Zaal Kaapstad,"Feest, Hobby, Repetitie, Vergader, Vergader1",180,300,39
+4.401643006449365,51.230065207741106,22744,0000007963,Stuurboord,Zaal Rio,"Feest, Hobby, Repetitie, Vergader, Vergader1",180,300,40
+4.401643006449365,51.230065207741106,22745,0000007963,Stuurboord,Zaal New Orleans,"Feest, Hobby, Repetitie, Vergader, Vergader1",180,300,41
+4.414935670263968,51.22319144261828,22746,0000007979,Apostolatus Maris Antwerpen,Koopvaardijzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",100,120,42
+4.414935670263968,51.22319144261828,22747,0000007979,Apostolatus Maris Antwerpen,Mercatorzaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",16,30,43
+4.427376942022069,51.218153987172585,22748,0000008044,Wok van Antwerpen,Achterzaal,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",200,200,44
+4.42500421835893,51.218807955016089,22749,0000008057,"Live Love, Love Life",Danszaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",60,80,45
+4.436554605431411,51.214802351830969,22750,0000008180,BAR Venetië,Feestzaal gelijkvloers,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",220,400,46
+4.470050852309187,51.23208095348771,22751,0000008188,FC Bosuil,Benedenzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",800,1000,47
+4.470050852309187,51.23208095348771,22752,0000008188,FC Bosuil,Bovenzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",350,500,48
+4.483750696788098,51.219934238803646,22753,0000008229,KVC Olympic Deurne,Kantine,"Feest, Hobby, Repetitie, Vergader, Vergader1",60,70,49
+4.483750696788098,51.219934238803646,22754,0000008229,KVC Olympic Deurne,Kleine zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",12,25,50
+4.46425393150703,51.215185646961764,22755,0000008232,Ri4a,Kantine,"Feest, Hobby, Repetitie, Vergader, Vergader1",100,200,51
+4.417373250969474,51.199291607775471,22756,0000008249,Ten Gaarde,Ten Gaarde - Polyvalente zaal,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",70,100,52
+4.417373250969474,51.199291607775471,22757,0000008249,Ten Gaarde,Ten Gaarde - Cafetaria,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",100,150,53
+4.405322405469549,51.233832611726811,22758,0000008292,Strantwerpen,Paviljoen,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",180,400,54
+4.399119403588831,51.214482572232392,22759,0000008303,Den Aalmoezenier,Zaal,"Feest, Hobby, Repetitie",,300,55
+4.407817656347593,51.227630202595101,22760,0000008312,Felixpakhuis BVBA,Salon,"Feest, Hobby, Repetitie, Vergader, Vergader1",,499,56
+4.407817656347593,51.227630202595101,22761,0000008312,Felixpakhuis BVBA,Markt,"Feest, Hobby, Repetitie, Vergader, Vergader1",,299,57
+4.387209417041223,51.23614700151623,22762,0000008317,Plaasjkaffee,Zaaltje,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",88,88,58
+4.482483595867215,51.228962733556692,22763,0000008328,Restaurant De Kaasboerin,Restaurant De Kaasboerin - Polyvalente zaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",80,150,59
+4.465957212929673,51.204138629995846,22764,0000008332,Familia Sint Rochus,Polyvalente zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",140,200,60
+4.465970614113437,51.232387670683302,22765,0000008352,Picass,Danscafé,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",50,150,61
+4.408258667499478,51.223708442659742,22766,0000008401,Publik,Zaal,"Feest, Repetitie, Vergader",,325,62
+4.387761874768211,51.218379114586057,22767,0000008457,Captain's Lounge,Clubhuis,"Feest, Hobby, Religiebeleving, Repetitie, Vergader",150,170,63
+4.421247251954632,51.251358171369816,22768,0000008470,Café Centrum,Café,"Feest, Repetitie",70,200,64
+4.381505139624957,51.219485564988787,22769,0000008484,Sint Anneke Centrum,Feestzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",200,200,65
+4.381505139624957,51.219485564988787,22770,0000008484,Sint Anneke Centrum,Spieken vergaderzaal 1,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",15,15,66
+4.381505139624957,51.219485564988787,22771,0000008484,Sint Anneke Centrum,Spieken café,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",20,20,67
+4.381505139624957,51.219485564988787,22772,0000008484,Sint Anneke Centrum,Spieken modulaire zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",100,100,68
+4.381505139624957,51.219485564988787,22773,0000008484,Sint Anneke Centrum,Café,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",100,100,69
+4.381505139624957,51.219485564988787,22774,0000008484,Sint Anneke Centrum,Vergaderzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",20,20,70
+4.380147462205104,51.189917861800659,22775,0000008487,Royale,Lounge,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",35,35,71
+4.380147462205104,51.189917861800659,22776,0000008487,Royale,Zaal A,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",200,450,72
+4.350203199498396,51.178873720512577,22777,0000008495,Moretus Centrum,Grote Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",150,250,73
+4.443172478517352,51.269506018377065,22778,0000008504,Hof Ter Delft,Veltwijck I,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",100,200,74
+4.443172478517352,51.269506018377065,22779,0000008504,Hof Ter Delft,Veltwijck II,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",200,400,75
+4.443172478517352,51.269506018377065,22780,0000008504,Hof Ter Delft,Veltwijck I en II,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",200,600,76
+4.443172478517352,51.269506018377065,22781,0000008504,Hof Ter Delft,Orangerie,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",60,120,77
+4.443172478517352,51.269506018377065,22782,0000008504,Hof Ter Delft,Bist,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",60,150,78
+4.318220944913731,51.357719764740445,22783,0000009277,Zandvliet Sport vzw,Kantine,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",200,200,79
+4.339101270266895,51.173635586574939,22784,0000009802,Gildenhuis Moretusburg,Café,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",35,49,80
+4.339101270266895,51.173635586574939,22785,0000009802,Gildenhuis Moretusburg,Grote Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",150,249,81
+4.416292582364793,51.246115091789655,22786,0000009889,Kinepolis,Hollywoodzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",1000,1800,82
+4.409760290838757,51.216408392220991,22787,0000009968,Horta,Art Nouveau Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",500,1000,83
+4.426198969218079,51.22253425115094,22788,0000009973,Dostlar Ve Kadesler Yeri,Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",150,150,84
+4.455301046716689,51.220554590272684,22789,0000010746,The Grey Corner,Café,"Feest, Repetitie, Vergader",30,49,85
+4.482809124913299,51.230227084842646,22790,0000010821,Mickey's Place,Mickey's Place - Vergaderzaal,"Feest, Hobby, Vergader, Vergader1",12,20,86
+4.448709927620921,51.246718685825876,22791,0000011104,De Volkslust,Kleine zaal,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",90,150,87
+4.448709927620921,51.246718685825876,22792,0000011104,De Volkslust,Grote zaal,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",300,400,88
+4.371099354614542,51.182811404432897,22793,0000011139,De Twee Jossen,Theaterruimte,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",149,149,89
+4.371606544057386,51.201121374231633,22794,0000011142,Petrol Club,Petrol Club - Grote zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",0,750,90
+4.371606544057386,51.201121374231633,22795,0000011142,Petrol Club,Petrol Club - Kleine zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",0,199,91
+4.410001685507345,51.237795728320684,22796,0000011470,Kerkschip Antwerpen,Feestzaal,"Feest, Repetitie, Vergader, Vergader1",110,180,92
+4.410001685507345,51.237795728320684,22797,0000011470,Kerkschip Antwerpen,Taverne,"Feest, Repetitie, Vergader, Vergader1",30,40,93
+4.410001685507345,51.237795728320684,22798,0000011470,Kerkschip Antwerpen,Taverne + Feestzaal,"Feest, Repetitie, Vergader, Vergader1",110,180,94
+4.440663726901077,51.241169714243341,22799,0000011650,Zaal Bart,Grote Vergaderzaal,"Feest, Hobby, Religiebeleving, Vergader, Vergader1",50,50,95
+4.440663726901077,51.241169714243341,22800,0000011650,Zaal Bart,Grote Feestzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",80,80,96
+4.440663726901077,51.241169714243341,22801,0000011650,Zaal Bart,Theaterzaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",250,250,97
+4.463336663842962,51.197438374204765,22802,0000011774,@The Park,Zaal Plataan,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",50,100,98
+4.463336663842962,51.197438374204765,22803,0000011774,@The Park,Zaal Magnolia,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",100,160,99
+4.429696422251281,51.216458528300123,22804,0000012287,New Replay,Feestcafé,Feest,0,99,100
+4.479482586310978,51.215956581742148,22805,0000012749,Ruggeveld TC,Kantine,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",75,120,101
+4.399754389765029,51.221705574708047,22806,0000012776,Den Bengel,Zaal eerste verdieping,"Feest, Religiebeleving, Repetitie, Vergader, Vergader1",60,100,102
+4.398436072488745,51.152146511675141,22807,0000012829,Het Rekreatief,Bosrand,"Feest, Vergader, Vergader1",80,120,103
+4.398436072488745,51.152146511675141,22808,0000012829,Het Rekreatief,Boomgaard,"Feest, Repetitie, Vergader, Vergader1",60,70,104
+4.398436072488745,51.152146511675141,22809,0000012829,Het Rekreatief,Combinatie zalen,"Feest, Vergader, Vergader1",80,120,105
+4.398436072488745,51.152146511675141,22810,0000012829,Het Rekreatief,Zaal Margot,"Feest, Vergader, Vergader1",35,,106
+4.398436072488745,51.152146511675141,22811,0000012829,Het Rekreatief,Bovenzaal,"Feest, Vergader, Vergader1",35,,107
+4.376740703669782,51.178442420505391,22812,0000012958,Valaarhof,Snek,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",80,120,108
+4.387032356143819,51.168302712032322,22813,0000012988,'t Spant,Spiegelzaal,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",70,120,109
+4.434793836265586,51.210191921354763,22814,0000013127,Spartacus Borgerhout vzw,Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",80,130,110
+4.396257617237556,51.16675260363251,22815,0000013147,Mariënborgh,Grote Zaal,"Feest, Hobby, Vergader, Vergader1",85,150,111
+4.396257617237556,51.16675260363251,22816,0000013147,Mariënborgh,Cafetaria,Feest,80,100,112
+4.396257617237556,51.16675260363251,22817,0000013147,Mariënborgh,Combinatie café + zaal + terras,Feest,80,250,113
+4.402419405720238,51.170643077935665,22818,0000013386,De Nieuwe Kroon,Feestzaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",58,70,114
+4.412865259624525,51.275585440717599,22819,0000013407,Hagelkruis,Cafetaria,"Feest, Hobby, Repetitie, Sport, Vakantieactiviteit, Vergader, Vergader1",100,100,115
+4.427040357469759,51.280742428964132,22820,0000013574,Blankenberg,Cafetaria,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",100,150,116
+4.411372838051654,51.231805113289418,22821,0000013695,Bas-île,Grote zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",60,150,117
+4.392232184183805,51.203113838073229,22822,0000020478,Venue219,Zaaltje,Feest,40,75,118
+4.397460817775021,51.219856530646652,22823,0000020755,De Ware Jacob,Café,"Feest, Repetitie",20,49,119
+4.412398511694516,51.224314008978858,22824,0000020771,Gate 15,Tarmac,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",85,140,120
+4.415874166958901,51.199520494800659,22825,0000020967,Afspanning De Hand,Zaaltje,"Feest, Hobby, Sport, Vergader, Vergader1",49,110,121
+4.442268865519345,51.214627778934478,22826,0000021566,Tafeltennisclub AFP,Cafetaria,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",60,80,122
+4.442268865519345,51.214627778934478,22827,0000021566,Tafeltennisclub AFP,Pingpongzaal eerste verdieping,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader",100,200,123
+4.442268865519345,51.214627778934478,22828,0000021566,Tafeltennisclub AFP,Pingpongzaal beneden,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader",100,200,124
+4.390526412983761,51.230104061658658,22829,0000023087,Cultureel Centrum ter Schelde,Grote zaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",300,400,125
+4.390526412983761,51.230104061658658,22830,0000023087,Cultureel Centrum ter Schelde,Kleine zaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",50,80,126
+4.402566197959972,51.221999531025638,22831,0000023224,De Taloorkes,Kelder,"Feest, Hobby, Repetitie, Vergader, Vergader1",50,65,127
+4.418223085130856,51.21991364452213,22832,0000023246,Koninklijk Atheneum Antwerpen,Zaal AthenA,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",350,499,128
+4.421159956358269,51.215116978505222,22833,0000023253,Ampère,Ampère - Feestzaal,"Feest, Hobby, Religiebeleving, Sport, Vergader, Vergader1",0,960,129
+4.355937542272202,51.16153391136428,22834,0000023256,Scouts 28 Zaoeja,'t Macadammeke,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",130,200,130
+4.403592319218318,51.23389338223523,22835,0000023258,De Shop,Evenementenhal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",700,3999,131
+4.403592319218318,51.23389338223523,22836,0000023258,De Shop,Evenementenhal roze zijde,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",400,2000,132
+4.403592319218318,51.23389338223523,22837,0000023258,De Shop,Bar,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",40,400,133
+4.403592319218318,51.23389338223523,22838,0000023258,De Shop,Cielo,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",150,400,134
+4.403592319218318,51.23389338223523,22839,0000023258,De Shop,Mezzanine,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",50,70,135
+4.394986741193763,51.234073143792173,22840,0000023294,Club Cabane,Feestlocatie,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",200,200,136
+4.35456310300692,51.175727639532056,22841,0000023326,Jeugdhuis Joh,Zaaltje,"Feest, Hobby, Vakantieactiviteit, Vergader, Vergader1",60,150,137
+4.389475507635119,51.210792748802845,22842,0000023675,Café Local,Ball Room,"Feest, Hobby, Repetitie, Vergader, Vergader1",220,700,138
+4.389475507635119,51.210792748802845,22843,0000023675,Café Local,Balkon,"Feest, Hobby, Repetitie, Vergader, Vergader1",140,140,139
+4.389475507635119,51.210792748802845,22844,0000023675,Café Local,Mercado,"Feest, Hobby, Vergader, Vergader1",70,200,140
+4.418910612021398,51.243020228330536,22845,0000023682,Dock3,Mainroom,"Feest, Hobby, Repetitie, Sport, Vergader",250,1000,141
+4.418910612021398,51.243020228330536,22846,0000023682,Dock3,Aura,"Feest, Hobby, Repetitie, Sport, Vergader",200,350,142
+4.418910612021398,51.243020228330536,22847,0000023682,Dock3,Skyclub,"Feest, Hobby, Repetitie, Sport, Vergader",120,350,143
+4.418910612021398,51.243020228330536,22848,0000023682,Dock3,Fusia,"Feest, Hobby, Repetitie, Sport, Vergader",50,100,144
+4.418910612021398,51.243020228330536,22849,0000023682,Dock3,Gebouw,"Feest, Hobby, Repetitie, Sport, Vergader",700,2000,145
+4.379530000059406,51.194620470065445,22850,0000023854,Cafetaria Players Sporthal Kiel,Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",80,200,146
+4.309276712312541,51.360157182380512,22851,0000023857,Dry Claveren,Feestzaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",120,160,147
+4.41273751112774,51.227067331278235,22852,0000024141,HAVN Church,Evenementenhal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",250,300,148
+4.416434530766787,51.218917488024537,22853,0000024178,Pure-Liner,Schip 1,"Feest, Vergader",250,600,149
+4.416434530766787,51.218917488024537,22854,0000024178,Pure-Liner,Schip 2,"Feest, Vergader",250,600,150
+4.410146460433586,51.234141631409933,22855,0000024182,Antwerp Engineering Company,Grote zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",190,800,151
+4.410146460433586,51.234141631409933,22856,0000024182,Antwerp Engineering Company,Kleine zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",50,250,152
+4.410146460433586,51.234141631409933,22857,0000024182,Antwerp Engineering Company,Mezzanine,"Feest, Hobby, Repetitie, Vergader, Vergader1",30,70,153
+4.410146460433586,51.234141631409933,22858,0000024182,Antwerp Engineering Company,Patio,"Feest, Hobby, Repetitie, Vergader, Vergader1",,100,154
+4.410146460433586,51.234141631409933,22859,0000024182,Antwerp Engineering Company,Modulair,"Feest, Hobby, Repetitie, Vergader, Vergader1",250,900,155
+4.425719488848681,51.231953563233432,22860,0000024184,La Gare 27,Club,"Feest, Hobby, Repetitie, Vergader, Vergader1",80,400,156
+4.425719488848681,51.231953563233432,22861,0000024184,La Gare 27,Bar,"Feest, Hobby, Repetitie, Vergader, Vergader1",50,150,157
+4.425719488848681,51.231953563233432,22862,0000024184,La Gare 27,Gebouw,"Feest, Hobby, Repetitie, Vergader, Vergader1",80,500,158
+4.401416571148396,51.226063119254505,22863,0000024193,Cargo Club,Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader",200,800,159
+4.403965895932252,51.226217719506352,22864,0000024195,Café d'Anvers,Zaal,"Feest, Hobby, Repetitie, Vergader",300,630,160
+4.403965895932252,51.226217719506352,22865,0000024195,Café d'Anvers,Bovenruimte,"Feest, Hobby, Repetitie, Vergader",70,120,161
+4.414888485368636,51.207740998119455,22866,0000024196,Elcker-ik,Cafetaria,"Feest, Hobby, Religiebeleving, Vergader, Vergader1",50,100,162
+4.395254833703698,51.211067890631249,22867,0000024220,Hiberniaschool,Turnzaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",300,300,163
+4.395254833703698,51.211067890631249,22868,0000024220,Hiberniaschool,Foyer,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",300,400,164
+4.395254833703698,51.211067890631249,22869,0000024220,Hiberniaschool,Kleine zaal,"Feest, Hobby, Religiebeleving, Repetitie, Sport, Vergader, Vergader1",100,150,165
+4.411429686056126,51.230721291467511,22870,0000024694,La Riva,Zaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",200,500,166
+4.389796452581966,51.211386500368633,22871,0000024696,MUHKA,Dakterras,"Feest, Hobby, Repetitie, Vergader, Vergader1",1500,1500,167
+4.389796452581966,51.211386500368633,22872,0000024696,MUHKA,Museumzalen,"Feest, Hobby, Repetitie, Vergader, Vergader1",300,800,168
+4.389796452581966,51.211386500368633,22873,0000024696,MUHKA,MHKAFE,"Feest, Hobby, Repetitie, Vergader, Vergader1",150,150,169
+4.387789074740658,51.206815193305722,22874,0000025610,Zuiderkroon,Theaterzaal,"Feest, Hobby, Religiebeleving, Repetitie, Vergader, Vergader1",550,865,170
+4.411861940613139,51.229751973594297,22875,0000025746,Port of Creative Antwerp by FMT,Vijfde verdieping,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",100,180,171
+4.411861940613139,51.229751973594297,22876,0000025746,Port of Creative Antwerp by FMT,Atelier of kantoor,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",20,35,172
+4.411861940613139,51.229751973594297,22877,0000025746,Port of Creative Antwerp by FMT,Het Eiland,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",100,100,173
+4.377627823633241,51.225097787950908,22878,0000025750,Leftbanq,Theaterzaal,"Feest, Hobby, Repetitie, Sport, Vergader, Vergader1",90,149,174
+4.405382026185518,51.214802410298503,22879,0000025786,De Serre,Zaal,"Feest, Hobby, Repetitie, Vergader, Vergader1",80,180,175
+4.405382026185518,51.214802410298503,22880,0000025786,De Serre,Auditorium,"Feest, Hobby, Repetitie, Vergader, Vergader1",,,176
