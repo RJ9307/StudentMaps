@@ -68,7 +68,7 @@ crossorigin=""></script>
   var pinBlue = new mapPin({iconUrl: '/img/PinBlue.png'}),
   pinYellow = new mapPin({iconUrl: '/img/PinYellow.png'}),
   pinRed = new mapPin({iconUrl: '/img/PinRed.png'}),
-  pinGreen = new mapPin({iconUrl: '/img/PinGreen.png'});
+  pinGreen = new mapPin({iconUrl: '/img/PinVelo.svg'});
 
   var map = L.map('map').fitWorld();
   var cafés = new L.LayerGroup();
@@ -76,17 +76,17 @@ crossorigin=""></script>
   var velo = new L.LayerGroup();
 
     <% for(var i = 0; i < fuifruimte.features.length; i++) { %>
-    L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>])
+    L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>], {icon: pinRed})
         .bindPopup("<%-fuifruimte.features[i].attributes.ROEPNAAM_ZZ_OBJECT %>").addTo(cafés)
     <% } %>
 
     <% for(var i = 0; i < cultuurruimte.features.length; i++) { %>
-    L.marker([<%-cultuurruimte.features[i].geometry.y %>, <%-cultuurruimte.features[i].geometry.x %>])
+    L.marker([<%-cultuurruimte.features[i].geometry.y %>, <%-cultuurruimte.features[i].geometry.x %>], {icon: pinYellow})
         .bindPopup("<%-cultuurruimte.features[i].attributes.naam %>").addTo(cultuur)
     <% } %>
 
     <% for(var i = 0; i < veloruimte.features.length; i++) { %>
-    L.marker([<%-veloruimte.features[i].geometry.y %>, <%-veloruimte.features[i].geometry.x %>])
+    L.marker([<%-veloruimte.features[i].geometry.y %>, <%-veloruimte.features[i].geometry.x %>], {icon: pinGreen})
         .bindPopup("Er zijn <%-veloruimte.features[i].attributes.Aantal_plaatsen %> plaatsen beschikbaar").addTo(velo)
     <% } %>
 
