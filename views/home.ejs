@@ -75,20 +75,20 @@ crossorigin=""></script>
   var cultuur = new L.LayerGroup();
   var velo = new L.LayerGroup();
 
-    <% var fuiflengte = fuifruimte.features.length;
-    for(var i = 0; i < fuiflengte; i++) { %>
+    <% var fuiflengte = fuifruimte.features.length; %>
+    <% for(var i = 0; i < fuiflengte; i++) { %>
     L.marker([<%-fuifruimte.features[i].geometry.y %>, <%-fuifruimte.features[i].geometry.x %>], {icon: pinRed})
         .bindPopup("<%-fuifruimte.features[i].attributes.ROEPNAAM_ZZ_OBJECT %>").addTo(cafés)
     <% } %>
 
-    <% var cultuurlengte = cultuurruimte.features.length;
-    for(var i = 0; i < cultuurlengte; i++) { %>
+    <% var cultuurlengte = cultuurruimte.features.length; %>
+    <% for(var i = 0; i < cultuurlengte; i++) { %>
     L.marker([<%-cultuurruimte.features[i].geometry.y %>, <%-cultuurruimte.features[i].geometry.x %>], {icon: pinYellow})
         .bindPopup("<%-cultuurruimte.features[i].attributes.naam %>").addTo(cultuur)
     <% } %>
 
-    <% var velolengte = veloruimte.features.length;
-    for(var i = 0; i < veloruimte.features.length; i++) { %>
+    <% var velolengte = veloruimte.features.length; %>
+    <% for(var i = 0; i < veloruimte.features.length; i++) { %>
     L.marker([<%-veloruimte.features[i].geometry.y %>, <%-veloruimte.features[i].geometry.x %>], {icon: pinGreen})
         .bindPopup("Er zijn <%-veloruimte.features[i].attributes.Aantal_plaatsen %> plaatsen beschikbaar").addTo(velo)
     <% } %>
