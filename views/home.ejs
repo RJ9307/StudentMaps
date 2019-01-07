@@ -59,7 +59,7 @@ crossorigin=""></script>
     style: 'mapbox://styles/mapbox/dark-v9', //hosted style id
   });*/
 
-  var mapPin = L.Icon.extend({
+  /*var mapPin = L.Icon.extend({
   options: {
       shadowUrl: '/img/pinShadow.svg',
       iconSize:     [80, 80],
@@ -68,13 +68,24 @@ crossorigin=""></script>
       shadowAnchor: [5, 55],
       popupAnchor:  [0, -56]
     }
+  });*/
+
+  var mapPin = L.Icon.extend({
+  options: {
+      shadowUrl: '/img/pinShadow.svg',
+      iconSize:     [50, 50],
+      shadowSize:   [55, 55],
+      iconAnchor:   [25, 50],
+      shadowAnchor: [5, 50],
+      popupAnchor:  [0, -56]
+    }
   });
 
   var pinBlue = new mapPin({iconUrl: '/img/PinBlue.svg'}),
   pinCafe = new mapPin({iconUrl: '/img/PinCafe.svg'}),
   pinCultuur = new mapPin({iconUrl: '/img/PinCultuur.svg'}),
   pinVelo = new mapPin({iconUrl: '/img/PinVelo.svg'});
-      
+
 
   var map = L.map('map').fitWorld();
   var cafés = new L.LayerGroup();
@@ -137,5 +148,5 @@ crossorigin=""></script>
 
 </script>
 <script src="js/map.js"></script>
-    
+
 <% include footer %>
